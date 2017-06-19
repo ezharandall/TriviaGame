@@ -13,15 +13,15 @@ $(document).on('click', '#complete', function(e){
 var questions = [{
   question: "Who won the 2017 NBA Title?",
   answers: ['Cleveland Cavaliers', 'Washington Wizards', 'Golden State Warriors', 'San Antonio Spurs'],
-  correctAnswer: "Golden State Warriors"
+  rightAnswer: "Golden State Warriors"
 }, {
-  question: "Which NFL team has been approved by the NFL to move to Las Vegas?",
+  question: "Which NFL team has been approved by the NFLto move to Las Vegas?",
   answers: ['Raiders', 'Rams', 'Redskins', 'Ravens'],
-  correctAnswer: "Raiders"
+  rightAnswer: "Raiders"
 }, {
   question: "Which team has a goaltender named Holtby?",
   answers: ["New York Rangers", "Pittsburgh Penguins", "Chicago Blackhawks", "Washington Capitals"],
-  correctAnswer: "Washington Capitals"
+  righttAnswer: "Washington Capitals"
 }];
 
 // The time of the quiz, start with 0 correct/incorrect
@@ -56,7 +56,7 @@ var game = {
   complete: function(){
 
     $.each($("input[name='question-0']:checked"), function(){
-       if ($(this).val() == questions[0].correctAnswer) {
+       if ($(this).val() == questions[0].rightAnswer) {
         console.log(this);
           game.correct++;
       } else {
@@ -65,7 +65,7 @@ var game = {
 
     });
     $.each($("input[name='question-1']:checked"), function(){
-       if ($(this).val() == questions[1].correctAnswer) {
+       if ($(this).val() == questions[1].rightAnswer) {
           game.correct++;
       } else {
         game.incorrect++;
@@ -73,7 +73,7 @@ var game = {
 
     });
     $.each($("input[name='question-2']:checked"), function(){
-       if ($(this).val() == questions[2].correctAnswer) {
+       if ($(this).val() == questions[2].rightAnswer) {
           game.correct++;
       } else {
         game.incorrect++;
