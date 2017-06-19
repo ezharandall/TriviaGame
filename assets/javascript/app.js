@@ -15,7 +15,7 @@ var questions = [{
   answers: ['Cleveland Cavaliers', 'Washington Wizards', 'Golden State Warriors', 'San Antonio Spurs'],
   correctAnswer: "Golden State Warriors"
 }, {
-  question: "Which NFL team has been approved to move to Las Vegas?",
+  question: "Which NFL team has been approved by the NFL to move to Las Vegas?",
   answers: ['Raiders', 'Rams', 'Redskins', 'Ravens'],
   correctAnswer: "Raiders"
 }, {
