@@ -1,13 +1,14 @@
 html, body{
   height:100%;
 }
-
+/*Backround Image*/
 body{
   background-image: url(https://github.com/ezharandall/TriviaGame/blob/master/assets/images/background_sports.png?raw=true);
   text-align: center;
  
 }
 
+/*First Div*/
 #wrapper{
   padding: 5% 0;
   background-color: black;
@@ -17,12 +18,13 @@ body{
   min-height: 60%;
   color: white;
 }
-
+/*Secondary Div*/
 #subwrapper{
   position: relative;
   top:20%;
 }
 
+/*Size of Button*/
 button{
   display:block;
 
@@ -36,7 +38,7 @@ button{
 
 }
 
-
+/* Header 1*/
 h1{
   font-family: 'Roboto Slab', serif;
   font-size: 6.5em;
@@ -45,18 +47,19 @@ h1{
   color:white;
 }
 
+/*Heaeder 2*/
 h2{
   font-size: 35px;
   margin-bottom: 25px;
   color:white;
 }
-
+/*Choices*/
 h3{
   font-size: 25px;
   margin-bottom: 10px;
   color: white;
 }
-
+/*Start Button*/
 #start{
   margin-top: 10%;
   border:2px solid white;
@@ -67,7 +70,7 @@ h3{
   margin-top: 50px;
   color: white;
 }
-
+/*Complete Button*/
 button:hover {
   border:2px solid white;
   background: red;

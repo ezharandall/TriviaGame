@@ -21,7 +21,7 @@ var questions = [{
 }, {
   question: "Which team has a goaltender named Holtby?",
   answers: ["New York Rangers", "Pittsburgh Penguins", "Chicago Blackhawks", "Washington Capitals"],
-  righttAnswer: "Washington Capitals"
+  rightAnswer: "Washington Capitals"
 }];
 
 // The time of the quiz, start with 0 correct/incorrect
